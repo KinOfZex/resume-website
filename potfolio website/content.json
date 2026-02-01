@@ -1,0 +1,70 @@
+
+{
+  "about": 
+  [
+    "Analytical and hands-on BSc Computer Science with Economics",
+    "with strong experience in data analysis, dashboarding,automation, and business insight generation.",
+    "Ability to work with real datasets, identify trends, and translate data into actionable insights that support customer-focused and operational decisions.\n",
+    "Highly motivated to thrive in a fast-paced, execution-driven e-commerce environment."
+  ],
+  "contact": 
+  [
+    "You can reach me via email at example@example.com.",
+    "Follow me on LinkedIn for updates and networking opportunities."
+  ],
+  "services": 
+  [
+    "I offer web development, automation, and AI integration services.",
+    "My focus is on creating efficient, scalable solutions tailored to your needs."
+  ],
+  "project_1": 
+  [
+    "Developed a desktop-based profile management system using Java and JavaFX enabling users to",
+    " create, edit, view, and persist personal profile records through a graphical user interface.",
+    " Implemented a modular, object-oriented architecture separating UI logic, data handling,",
+    " and persistence, with support for dynamic form updates, event-driven input handling, ",
+    "and file-based storage. Designed reusable components for profile editing, profile listing,",
+    " and data validation, demonstrating practical application of OOP principles",
+    " (encapsulation, abstraction, modularity) and familiarity with MVC-inspired design patterns.\n\n",
+    "Key Technologies: Java, JavaFX, File I/O, Object-Oriented Programming, Event Handling"
+  ],
+  "project_2": 
+  [
+    "Developed a Java‑based web scraper using Selenium to automate navigation through the eFundi learning management system.",
+    "The tool efficiently searches course pages, downloads relevant files, and stores them locally while organizing them into structured directories. ",
+    "This project demonstrated skills in automation, web scraping, and file system management, reducing manual effort and ensuring streamlined access to academic resources."
+  ],
+  "project_3": 
+  [
+    "Designed and deployed an interactive resume website using HTML, CSS, JavaScript, and JSON for dynamic content management."
+  ],
+  "project_4": 
+  [
+    "Designed and simulated a structured enterprise network using Cisco Packet Tracer, modelling a multi-department office environment.",
+    "The project involved planning and implementing a centralised network architecture connecting multiple functional areas including offices, meeting rooms, open-plan workspaces, reception, kitchen, and bathrooms.",
+    "Configured core networking devices such as switches, routers, servers, and end-user hosts, ensuring efficient connectivity across all departments.",
+    "Implemented logical network segmentation to reflect organisational layout, improve traffic management, and enhance scalability. Integrated a main server/network room to centralise services and manage internal communication.",
+    "Applied fundamental networking concepts including LAN design, device interconnection, IP addressing, and structured cabling principles.",
+    "The topology demonstrates an understanding of real-world enterprise network planning, device placement, and connectivity flow between access, distribution, and core components."
+  ],
+  "project_5":
+  [
+    "Developed a Book Validation System to manage and verify book records within a structured system environment.",
+    "The project focused on data validation, record management, and logical system design to ensure accuracy and consistency of book information such as IDs, titles, authors, and availability status.",
+    "Implemented input validation rules to prevent incorrect or duplicate entries and ensure data integrity. ",
+    "Designed the system to support efficient searching, updating, and verification of records, simulating real-world use cases such as library or inventory management systems.",
+    "Emphasised clean system logic, modular design, and user-friendly interaction, demonstrating an understanding of how validation systems support reliability and operational efficiency in information management."
+  ],
+  "project_6": 
+  [
+    "Designed and implemented an automated browser-based system to log into the NWU eFundi platform and download course resources.",
+    "Migrated a complex Selenium-based workflow to **Playwright**, improving reliability, speed, and download handling.",
+    "Implemented recursive traversal of course sites and nested resource folders.",
+    "Built structured local download directories reflecting online folder hierarchies.",
+    "Added **parallel download support** using asynchronous programming with controlled concurrency.",
+    "Integrated **retry mechanisms** for failed downloads to improve robustness.",
+    "Implemented **per-file progress tracking** using `tqdm` for real-time feedback.",
+    "Ensured secure credential handling via runtime input and environment variables.",
+    "Added persistent tracking of downloaded resources to prevent duplication."
+  ]
+}
