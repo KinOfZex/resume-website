@@ -230,6 +230,18 @@ html {
         </div>
       </div>
 
+      <!-- Project 7 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/GDP.png" class="card-img-top" alt="Project 7">
+          <div class="card-body">
+            <h5 class="card-title">Economic Data Analysis(R)</h5>
+            <div class="card-text" id="project_7-text"></div>
+            <a href="https://github.com/KinOfZex/Economic Data Analysis" class="btn btn-secondary">Source Code</a>
+          </div>
+        </div>
+      </div>
+
       <!--project card end-->
     </div>
   </div>
@@ -366,38 +378,20 @@ html {
 
       // Load each section
       loadParagraphs("about", data.about);
+
       loadParagraphs("project_1", data.project_1);
       loadParagraphs("project_2", data.project_2);
       loadParagraphs("project_3", data.project_3);
       loadParagraphs("project_4", data.project_4); //cisco project
       loadParagraphs("project_5", data.project_5); //ISBN validation
       loadParagraphs("project_6", data.project_6); //python playwrite
+      loadParagraphs("project_7", data.project_7); //economic data analysis
+
       loadParagraphs("contact", data.contact);
       loadParagraphs("services", data.services);
     })
     .catch(error => console.error("Error loading content:", error));
 </script>
-<!--script>
-  fetch("personalDetails.json")
-    .then(response => response.json())
-    .then(data => {
-      // Helper function to inject paragraphs
-      function loadParagraphs(sectionId, paragraphs) {
-        const container = document.getElementById(sectionId + "-PD");
-        paragraphs.forEach(p => {
-          const para = document.createElement("p");
-          para.textContent = p;
-          container.appendChild(para);
-        });
-      }
 
-      // Load each section
-      loadParagraphs("github", data.github);
-      loadParagraphs("email", data.email);
-      loadParagraphs("linkedin", data.linkedin);
-      loadParagraphs("phone", data.phone);
-    })
-    .catch(error => console.error("Error loading content:", error));
-    </script-->
 </body>
 </html>
