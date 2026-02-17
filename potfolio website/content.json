@@ -66,5 +66,12 @@
     "Implemented **per-file progress tracking** using `tqdm` for real-time feedback.",
     "Ensured secure credential handling via runtime input and environment variables.",
     "Added persistent tracking of downloaded resources to prevent duplication."
+  ],
+  "project_7":
+  [
+    "Wrote An R script workflow that processes economic data (GDP components) for the purpose of comparing GDP growth between western and eastern to african countries",
+    "Processed UN GDP datasets using R (tidyverse, reshape2, openxlsx).",
+    "Reshaped and validated structured economic indicators for multiple countries.",
+    "Produced visualizations and Excel-based outputs to support statistical enquiries and reporting."
   ]
 }
